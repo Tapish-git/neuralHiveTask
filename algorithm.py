@@ -13,12 +13,15 @@ class Solution:
         
         root = Node(input[0])
         queue = [root]
+        ptr = 1
         
-        while queue:
-            current =  queue.pop(0)
-            while input[0] is None:
-                child = Node(input[1])
+        while queue and ptr < len(input):
+            current = queue.pop(0)
+            while input[ptr] is not None:
+                child = Node(input[ptr])
                 current.children.append(child)
                 queue.append(child)
+                ptr += 1
+            ptr += 1
 
         return root

@@ -7,7 +7,7 @@
 
 ## Summary-
 
-#I approached this tree problem using Breadth-First Search (BFS) with a queue data structure, which perfectly suits the level-order representation of the input list as seen in the graph
-#Queue is used to track nodes whose children need to be processed next, maintaining the correct parent-child relationships
-#By processing nodes in the order they appear and using the queue to manage the level traversal, we can build the tree while closely following the structure of the input list
+# I approached this tree problem using Breadth-First Search (BFS) with a queue data structure, which perfectly suits the level-order representation of the input list as seen in the graph
+# Queue is used to track nodes whose children need to be processed next, maintaining the correct parent-child relationships
+# By processing nodes in the order they appear and using the queue to manage the level traversal, we can build the tree while closely following the structure of the input list
 
